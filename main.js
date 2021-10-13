@@ -35,7 +35,7 @@ function gotResult(error, results){
         console.error(error);
     }
     console.log(results);
-    document.getElementById('lable').innerHTML = 'Label: ' + results[0].label;
+    document.getElementById('label').innerHTML = 'Label: ' + results[0].label;
 
     document.getElementById('confidence').innerHTML = 'Confidence: ' + Math.round(results[0].confidence * 100) + "%";
 
